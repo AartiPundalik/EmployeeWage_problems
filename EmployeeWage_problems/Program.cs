@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace EmployeeWage_problems
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -18,6 +19,9 @@ namespace EmployeeWage_problems
             Console.ReadLine();
             UC3 empcheckk = new UC3();
             UC3.PartTime();
+            Console.ReadLine();
+            SwitchCase Switch = new SwitchCase();
+            SwitchCase.Switch();
             Console.ReadLine();
 
         }
