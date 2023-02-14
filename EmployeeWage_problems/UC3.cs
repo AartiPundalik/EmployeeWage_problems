@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace EmployeeWage_problems
 {
-    internal class UC3
+    public  class UC3
     {
-        public static void empcheck()
+        public static void PartTime()
         {
             int Is_Full_Time = 1;
             int Emp_Rate_Per_Hour = 20;

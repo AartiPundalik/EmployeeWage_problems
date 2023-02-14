@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EmployeeWage_problems
 {
-    internal class UC2
+    public class UC2
     {
         public static void empcheck()
         {

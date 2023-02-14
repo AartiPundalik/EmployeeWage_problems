@@ -23,6 +23,9 @@ namespace EmployeeWage_problems
             SwitchCase Switch = new SwitchCase();
             SwitchCase.Switch();
             Console.ReadLine();
+            MonthWage MonthlyWage = new MonthWage();
+            MonthWage.MonthlyWage();
+            Console.ReadLine();
 
         }
     }
