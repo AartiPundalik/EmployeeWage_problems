@@ -26,6 +26,10 @@ namespace EmployeeWage_problems
             MonthWage MonthlyWage = new MonthWage();
             MonthWage.MonthlyWage();
             Console.ReadLine();
+            HoursDaysTotal HoursDaysOfMonth = new HoursDaysTotal();
+            HoursDaysTotal.HoursDaysOfMonth();
+            Console.ReadLine();
+
 
         }
     }
