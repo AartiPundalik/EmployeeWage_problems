@@ -29,6 +29,11 @@ namespace EmployeeWage_problems
             HoursDaysTotal HoursDaysOfMonth = new HoursDaysTotal();
             HoursDaysTotal.HoursDaysOfMonth();
             Console.ReadLine();
+            Refactor EmployeeWage = new Refactor();
+            Refactor.EmployeeWage();
+            Console.ReadLine();
+           
+            
 
 
         }
