@@ -26,12 +26,20 @@ namespace EmployeeWage_problems
             MonthWage MonthlyWage = new MonthWage();
             MonthWage.MonthlyWage();
             Console.ReadLine();
-            HoursDaysTotal HoursDaysOfMonth = new HoursDaysTotal();
+            HoursDaysTotal HoursDaysOfMonth = new HoursDaysTotal(); 
             HoursDaysTotal.HoursDaysOfMonth();
             Console.ReadLine();
             Refactor EmployeeWage = new Refactor();
             Refactor.EmployeeWage();
             Console.ReadLine();
+            MultipleCompanies computeEmpWage= new MultipleCompanies();
+            MultipleCompanies.computeWage("BigBazaar", 20, 50, 40);
+            MultipleCompanies.computeWage("StarBazaar", 30, 10, 80);
+            Console.ReadLine();
+            
+            
+            
+
            
             
 
