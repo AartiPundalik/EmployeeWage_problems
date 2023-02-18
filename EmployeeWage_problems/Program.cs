@@ -36,12 +36,18 @@ namespace EmployeeWage_problems
             MultipleCompanies.computeWage("BigBazaar", 20, 50, 40);
             MultipleCompanies.computeWage("StarBazaar", 30, 10, 80);
             Console.ReadLine();
-            
-            
-            
+            SaveTheTotal bigbazaar = new SaveTheTotal("bigbazaar", 20, 2, 10);
+            SaveTheTotal starbazaar = new SaveTheTotal("starbazaar", 10, 4, 20);
+            bigbazaar.Attendance();
+            Console.WriteLine(bigbazaar.ToString());
+            starbazaar.Attendance();
+            Console.WriteLine(starbazaar.ToString());
+            Console.ReadKey();
 
-           
-            
+
+
+
+
 
 
         }
