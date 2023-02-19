@@ -43,6 +43,16 @@ namespace EmployeeWage_problems
             starbazaar.Attendance();
             Console.WriteLine(starbazaar.ToString());
             Console.ReadKey();
+            ManageEmployeeWage dmart = new ManageEmployeeWage();
+            dmart.AddCompanyEmpWage("Dmart", 20, 2, 10);
+            dmart.AddCompanyEmpWage("Localshop", 10, 4, 20);
+            Console.ReadLine();
+
+
+
+
+
+
 
 
 
