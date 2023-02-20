@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EmployeeWage_problems
 {
-    public class ManageEmployeeWage
+    public class ManageEmployeeWage : MultiplecompaniesInterface
     {
         public const int IS_PART_TIME = 1;
         public const int IS_FULL_TIME = 2;
@@ -14,11 +14,12 @@ namespace EmployeeWage_problems
         private int numOfCompany = 0;
         private AbilityToManageEmp[] companyEmpWageArray;
 
-        public  void  MultipleCompanies()
+        public void MultipleCom()
         {
             this.companyEmpWageArray = new AbilityToManageEmp[5];
         }
         public void AddCompanyEmpWage(string company, int empRatePerHour, int numOfWorkingDays, int maxHoursPerMonth)
+
         {
             companyEmpWageArray[this.numOfCompany] = new AbilityToManageEmp(company, empRatePerHour, numOfWorkingDays, maxHoursPerMonth);
             numOfCompany++;
@@ -57,6 +58,6 @@ namespace EmployeeWage_problems
             }
             return totalEmpHrs * companyEmpWage.empRatePerHour;
         }
-    }
 
+    }
 }
